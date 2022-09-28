@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgf"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Authenticate Account"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:text="Protecting your information is very important to us."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="20dp"
+        android:text="Please confirm your account by entering the 6-digit code sent to your email address."
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:background="#30ffffff"
+        android:layout_marginTop="250dp"
+        android:hint="    _"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:background="#30ffffff"
+        android:layout_marginTop="250dp"
+        android:hint="   _"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="140dp"
+        android:background="#30ffffff"
+        android:layout_marginTop="250dp"
+        android:hint="   _"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:background="#30ffffff"
+        android:layout_marginTop="250dp"
+        android:hint="   _"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="260dp"
+        android:background="#30ffffff"
+        android:layout_marginTop="250dp"
+        android:hint="   _"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="320dp"
+        android:background="#30ffffff"
+        android:layout_marginTop="250dp"
+        android:hint="   _"
+        android:textColorHint="@color/black" />
+
+
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="102dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="435dp"
+        android:background="#30ffffff"
+        android:text="Create Account"
+        android:textColor="@color/black" />
+
+
+
+
+
+</RelativeLayout>

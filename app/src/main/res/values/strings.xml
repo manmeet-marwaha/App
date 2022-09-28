@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TTFX</string>
+
+    <string-array name="mealtime">
+        <item>None</item>
+        <item>BreakFast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Desert</item>
+    </string-array>
+</resources>
